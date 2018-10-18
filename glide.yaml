@@ -1,2 +1,6 @@
 package: github.com/martin31821/bft
-import: []
+import:
+- package: github.com/spf13/cobra
+  version: ^0.0.3
+  subpackages:
+  - cobra
